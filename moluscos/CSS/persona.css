@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+body{
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+}
+
+.Persona{
+    margin: 80px 50px 50px 50px;
+    justify-content: center;
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+.per1{
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+}
+
+
+
+.Nome:hover{
+    background-color:#5c7285ed;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.Nome{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-style: italic;
+    background-color:#262f37bf;
+    border-radius: 10px;
+}
+
+
