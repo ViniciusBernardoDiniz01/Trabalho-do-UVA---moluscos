@@ -1,0 +1,444 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Os moluscos têm ossos?",
+            "options": [
+                "Sim, muitos",
+                "Não, são invertebrados",
+                "Apenas os que vivem na água",
+                "Só os terrestres"
+            ],
+            "answer": "Não, são invertebrados"
+        },
+        {
+            "id": 2,
+            "question": "Qual desses animais é um molusco?",
+            "options": [
+                "Caracol",
+                "Aranha",
+                "Estrela-do-mar",
+                "Minhoca"
+            ],
+            "answer": "Caracol"
+        },
+        {
+            "id": 3,
+            "question": "Os moluscos vivem onde?",
+            "options": [
+                "Apenas na terra",
+                "Apenas no ar",
+                "Na água e na terra",
+                "Só em cavernas"
+            ],
+            "answer": "Na água e na terra"
+        },
+        {
+            "id": 4,
+            "question": "A maioria dos moluscos tem:",
+            "options": [
+                "Patas articuladas",
+                "Corpo mole",
+                "Pelos no corpo",
+                "Asas para voar"
+            ],
+            "answer": "Corpo mole"
+        },
+        {
+            "id": 5,
+            "question": "O que ajuda o molusco a se proteger?",
+            "options": [
+                "Penas",
+                "Garras",
+                "Concha",
+                "Patas"
+            ],
+            "answer": "Concha"
+        },
+        {
+            "id": 6,
+            "question": "Qual animal abaixo é um molusco aquático?",
+            "options": [
+                "Gato",
+                "Pássaro",
+                "Lula",
+                "Lagarta"
+            ],
+            "answer": "Lula"
+        },
+        {
+            "id": 7,
+            "question": "Qual desses animais é terrestre?",
+            "options": [
+                "Caracol",
+                "Mexilhão",
+                "Lula",
+                "Ostra"
+            ],
+            "answer": "Caracol"
+        },
+        {
+            "id": 8,
+            "question": "Os moluscos têm simetria:",
+            "options": [
+                "Nenhuma",
+                "Bilateral",
+                "Circular",
+                "Espiral"
+            ],
+            "answer": "Bilateral"
+        },
+        {
+            "id": 9,
+            "question": "O que os moluscos usam para se mover?",
+            "options": [
+                "Pernas",
+                "Pé muscular",
+                "Nadadeiras",
+                "Asas"
+            ],
+            "answer": "Pé muscular"
+        },
+        {
+            "id": 10,
+            "question": "O que é uma rádula?",
+            "options": [
+                "Tipo de asa",
+                "Glândula de veneno",
+                "Parte que raspa alimentos",
+                "Filtro de água"
+            ],
+            "answer": "Parte que raspa alimentos"
+        },
+        {
+            "id": 11,
+            "question": "Um exemplo de molusco com concha espiral é:",
+            "options": [
+                "Caracol",
+                "Polvo",
+                "Camarão",
+                "Estrela-do-mar"
+            ],
+            "answer": "Caracol"
+        },
+        {
+            "id": 12,
+            "question": "A concha dos moluscos é feita de:",
+            "options": [
+                "Ferro",
+                "Vidro",
+                "Cálcio",
+                "Madeira"
+            ],
+            "answer": "Cálcio"
+        },
+        {
+            "id": 13,
+            "question": "O polvo é um molusco sem:",
+            "options": [
+                "Olhos",
+                "Concha",
+                "Cérebro",
+                "Boca"
+            ],
+            "answer": "Concha"
+        },
+        {
+            "id": 14,
+            "question": "O que o manto faz?",
+            "options": [
+                "Serve para respirar",
+                "Produz a concha",
+                "Serve como alimento",
+                "Ajuda a nadar"
+            ],
+            "answer": "Produz a concha"
+        },
+        {
+            "id": 15,
+            "question": "Moluscos são animais com:",
+            "options": [
+                "Penas",
+                "Corpo mole",
+                "Pelos",
+                "Ossos"
+            ],
+            "answer": "Corpo mole"
+        },
+        {
+            "id": 16,
+            "question": "Qual molusco tem tentáculos?",
+            "options": [
+                "Caracol",
+                "Polvo",
+                "Lesma",
+                "Minhoca"
+            ],
+            "answer": "Polvo"
+        },
+        {
+            "id": 17,
+            "question": "O polvo usa os tentáculos para:",
+            "options": [
+                "Capturar alimentos",
+                "Fazer sons",
+                "Esquentar o corpo",
+                "Guardar água"
+            ],
+            "answer": "Capturar alimentos"
+        },
+        {
+            "id": 18,
+            "question": "A lula vive:",
+            "options": [
+                "No solo",
+                "No mar",
+                "No ar",
+                "Em cavernas"
+            ],
+            "answer": "No mar"
+        },
+        {
+            "id": 19,
+            "question": "Qual desses animais é um molusco de duas conchas?",
+            "options": [
+                "Caracol",
+                "Mexilhão",
+                "Polvo",
+                "Camarão"
+            ],
+            "answer": "Mexilhão"
+        },
+        {
+            "id": 20,
+            "question": "Moluscos fazem parte de qual grupo?",
+            "options": [
+                "Répteis",
+                "Invertebrados",
+                "Mamíferos",
+                "Anfíbios"
+            ],
+            "answer": "Invertebrados"
+        },
+        {
+            "id": 21,
+            "question": "O polvo é um molusco que pertence à classe:",
+            "options": [
+                "Bivalvia",
+                "Gastropoda",
+                "Cephalopoda",
+                "Polyplacophora"
+            ],
+            "answer": "Cephalopoda"
+        },
+        {
+            "id": 22,
+            "question": "A lula é parecida com o polvo, mas ela tem:",
+            "options": [
+                "Concha interna",
+                "Duas conchas externas",
+                "Apenas quatro braços",
+                "Asas para voar"
+            ],
+            "answer": "Concha interna"
+        },
+        {
+            "id": 23,
+            "question": "O marisco é um exemplo de molusco:",
+            "options": [
+                "Terrestre",
+                "Bivalve",
+                "Com tentáculos",
+                "Hermafrodita com rádula"
+            ],
+            "answer": "Bivalve"
+        },
+        {
+            "id": 24,
+            "question": "O caracol tem o corpo protegido por:",
+            "options": [
+                "Casco de quitina",
+                "Pelos duros",
+                "Concha espiral",
+                "Espinhos"
+            ],
+            "answer": "Concha espiral"
+        },
+        {
+            "id": 25,
+            "question": "O mexilhão é um molusco que se alimenta por:",
+            "options": [
+                "Mordidas rápidas",
+                "Filtrar partículas da água",
+                "Caçar pequenos peixes",
+                "Raspar folhas com a rádula"
+            ],
+            "answer": "Filtrar partículas da água"
+        },
+        {
+            "id": 26,
+            "question": "A lesma-do-jardim não tem:",
+            "options": [
+                "Tentáculos sensoriais",
+                "Concha externa",
+                "Corpo mole",
+                "Pé muscular"
+            ],
+            "answer": "Concha externa"
+        },
+        {
+            "id": 27,
+            "question": "Os polvos e as lulas têm como característica comum:",
+            "options": [
+                "Concha dupla",
+                "Tentáculos com ventosas",
+                "Corpo segmentado",
+                "Boca no topo da cabeça"
+            ],
+            "answer": "Tentáculos com ventosas"
+        },
+        {
+            "id": 28,
+            "question": "As ostras vivem em:",
+            "options": [
+                "Rios gelados",
+                "Costas rochosas e fundo do mar",
+                "Terra seca",
+                "Árvores aquáticas"
+            ],
+            "answer": "Costas rochosas e fundo do mar"
+        },
+        {
+            "id": 29,
+            "question": "A rádula é uma estrutura presente em animais como:",
+            "options": [
+                "Caracol",
+                "Marisco",
+                "Ostra",
+                "Mexilhão"
+            ],
+            "answer": "Caracol"
+        },
+        {
+            "id": 30,
+            "question": "Como o polvo se defende de predadores?",
+            "options": [
+                "Usa a concha como escudo",
+                "Libera tinta na água",
+                "Enrola no próprio corpo",
+                "Ataca com espinhos venenosos"
+            ],
+            "answer": "Libera tinta na água"
+        },
+        {
+            "id": 31,
+            "question": "Os caracóis usam o pé muscular para:",
+            "options": [
+                "Se arrastar lentamente",
+                "Subir em árvores com garras",
+                "Capturar presas com rapidez",
+                "Pular de folha em folha"
+            ],
+            "answer": "Se arrastar lentamente"
+        },
+        {
+            "id": 32,
+            "question": "Os mexilhões e mariscos respiram com:",
+            "options": [
+                "Pulmões",
+                "Brânquias",
+                "Traqueias",
+                "Pele"
+            ],
+            "answer": "Brânquias"
+        },
+        {
+            "id": 33,
+            "question": "A lula se move na água por:",
+            "options": [
+                "Flutuação passiva",
+                "Propulsão com jato de água",
+                "Nado com nadadeiras largas",
+                "Arrasto no fundo"
+            ],
+            "answer": "Propulsão com jato de água"
+        },
+        {
+            "id": 34,
+            "question": "O caramujo é um molusco parecido com o caracol, mas vive principalmente:",
+            "options": [
+                "No mar aberto",
+                "Em água doce",
+                "No ar",
+                "Em folhas de árvores"
+            ],
+            "answer": "Em água doce"
+        },
+        {
+            "id": 35,
+            "question": "As ostras produzem pérolas a partir de:",
+            "options": [
+                "Algas que ingerem",
+                "Detritos que comem",
+                "Grãos de areia que entram no corpo",
+                "Fragmentos de conchas"
+            ],
+            "answer": "Grãos de areia que entram no corpo"
+        },
+        {
+            "id": 36,
+            "question": "A lula-gigante pertence à mesma classe que:",
+            "options": [
+                "Ostra",
+                "Polvo",
+                "Caracol",
+                "Mexilhão"
+            ],
+            "answer": "Polvo"
+        },
+        {
+            "id": 37,
+            "question": "As lesmas e os caracóis pertencem à classe:",
+            "options": [
+                "Cephalopoda",
+                "Gastropoda",
+                "Bivalvia",
+                "Echinodermata"
+            ],
+            "answer": "Gastropoda"
+        },
+        {
+            "id": 38,
+            "question": "O marisco e o mexilhão possuem:",
+            "options": [
+                "Tentáculos e olhos grandes",
+                "Conchas espiraladas",
+                "Duas conchas e corpo preso a substratos",
+                "Rádula para raspar alimento"
+            ],
+            "answer": "Duas conchas e corpo preso a substratos"
+        },
+        {
+            "id": 39,
+            "question": "As lulas possuem quantos braços principais?",
+            "options": [
+                "4",
+                "8 braços + 2 tentáculos",
+                "12",
+                "Apenas 6"
+            ],
+            "answer": "8 braços + 2 tentáculos"
+        },
+        {
+            "id": 40,
+            "question": "O caracol e a lesma são parecidos, mas o que o caracol tem que a lesma não tem?",
+            "options": [
+                "Tentáculos",
+                "Concha externa",
+                "Corpo gelatinoso",
+                "Pé para se locomover"
+            ],
+            "answer": "Concha externa"
+        }
+    ]
+}

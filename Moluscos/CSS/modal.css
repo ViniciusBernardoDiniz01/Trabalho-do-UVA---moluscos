@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .body-config {
@@ -11,7 +12,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0a0c2191;
 }
 
 .btnOpenModal {
@@ -31,6 +31,7 @@
     z-index: 999;
     justify-content: center;
     padding: 30px;
+    background-color: #0a0c2191;
 }
 
 .modal {
@@ -71,9 +72,18 @@ span {
     flex-direction: column;
     justify-content: center;  
     align-items: center;  
+    
 }
 
-.btn1,.btn2,.btn3{
+.link1, .link2{
+    color: black;
+}
+
+.link3{
+    color: white;
+}
+
+.btn1,.btn2,.btn3,.btn4{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -84,19 +94,17 @@ span {
     font-size: x-large; 
     margin-top: 20px; 
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
-.btn1:hover,.btn2:hover{
+.btn1:hover,.btn2:hover, .btn3:hover, .btn4:hover{
     opacity: 0.8;
 }
 
-.btn3{
+.btn4{
     background-color: red;
     color: white;
-}
-
-.btn3:hover{
-    background-color: rgb(228, 0, 0);
 }
 
 @media (max-width: 500px) {
@@ -111,99 +119,3 @@ span {
     }
 }
 
-/* ----------config------- */
-
-.modal-container2 {
-    width: 100vw;
-    position: fixed;
-    display: none;
-    z-index: 999;
-    justify-content: center;
-    padding: 30px;
-}
-
-.titulo2{
-    color: rgb(0, 0, 0);
-    background-color: white;
-    width: 100%;
-    margin: 0;
-}
-
-.modal2 {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    background-color: #0028a4;
-    border-radius: 10px;
-    width: 40%;
-    align-items: center;
-    justify-content: center;
-    font-size: x-large;
-}
-
-.active {
-    display: flex;
-}
-
-.active .modal2 {
-    animation: modal .4s;
-}
-
-@keyframes modal2 {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -60px, 0);
-    }
-
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-span {
-    margin: 10px auto;
-}
-
-.configuracoes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items: center;  
-    width: 100%;
-}
-
-.btn1-2,.btn2-2{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-height: 150px;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large; 
-    margin-top: 20px; 
-    border-radius: 5px;
-}
-
-.btn1-2:hover{
-    opacity: 0.8;
-}
-
-.btn2-2{
-    background-color: red;
-    color: white;
-}
-
-.btn2-2:hover{
-    background-color: rgb(228, 0, 0);
-}
-
-@media (max-width: 500px) {
-    .modal2 {
-        padding: 10px;
-        width: 80%;
-        font-size: 12px;
-    }
-
-}
