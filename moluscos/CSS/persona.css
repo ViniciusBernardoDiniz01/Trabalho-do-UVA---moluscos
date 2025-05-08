@@ -24,13 +24,13 @@ body{
     /* grid-template-columns: repeat(4, 1fr); */
     flex-wrap: wrap;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     gap: 100px;
 }
 
 .per1{
     padding: 20px;
-    width: 200px;
+    width: 280px;
     height: 250px;
 }
 
@@ -44,13 +44,14 @@ body{
 
 .Nome{
     color: white;
+    font-style: bold;
     font-size: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
     font-style: italic;
     background-color:#262f37bf;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 
