@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/verificacao.css">
+    <title>Perguntas</title>
 </head>
-<body>
-    <button onclick="carregarPerguntas()">Começar</button>
-    
 
-    <script src="../Moluscos/JS/verificacao.js"></script>
+<body>
+    <h2>Quiz</h2>
+
+    <main>
+        <div class="qntd"></div>
+        <div class="track" >
+
+            <img src="./IMG/turbo.png" alt="" class="snail" >
+
+            <div class="finish-line" style="position: absolute; top: 0; right: 0; width: 5px; height: 100%; background: red;">
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="question"></div>
+            <div class="answers"></div>
+        </div>
+        
+        <div class="finish" style="display: none;">
+            <span></span>
+            <button>Reiniciar</button>
+        </div>
+    </main>
+
+    <script type="module" src="./JS/verificacao.js"></script>
 </body>
+
 </html>
