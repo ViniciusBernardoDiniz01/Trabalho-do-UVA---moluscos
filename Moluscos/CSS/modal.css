@@ -1,11 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-
 .body-config {
     width: 100vw;
     height: 100vh;
@@ -22,16 +14,20 @@
     background-color: rgb(70, 43, 226);
     color: white;
     cursor: pointer;
+    z-index: 10; /* Garante que o botão fique acima do conteúdo */
 }
 
 .modal-container {
     width: 100vw;
+    height: 100vh;
     position: fixed;
+    top: 0;
+    left: 0;
     display: none;
-    z-index: 999;
+    z-index: 9999; /* Sobrepõe todo o conteúdo */
     justify-content: center;
-    padding: 30px;
-    background-color: #0a0c2191;
+    align-items: center;
+    background-color: rgba(10, 12, 33, 0.8); /* Fundo semitransparente */
 }
 
 .modal {
@@ -41,72 +37,81 @@
     background-color: #0028a4;
     border-radius: 10px;
     width: 40%;
+    max-width: 500px;
+    animation: modal 0.4s;
 }
 
 .active {
-    display: flex;
-}
-
-.active .modal {
-    animation: modal .4s;
+    display: flex; /* Torna o modal visível */
 }
 
 @keyframes modal {
     from {
         opacity: 0;
-        transform: translate3d(0, -60px, 0);
+        transform: translateY(-60px);
     }
-
     to {
         opacity: 1;
-        transform: translate3d(0, 0, 0);
+        transform: translateY(0);
     }
 }
 
-span {
-    margin: 10px auto;
-}
-
-.btns{
+.btns {
     display: flex;
     flex-direction: column;
-    justify-content: center;  
-    align-items: center;  
-    
+    justify-content: center;
+    align-items: center;
 }
 
-.link1, .link2{
-    color: black;
+.link1, .link2 {
+    color: rgb(0, 0, 0);
+
 }
 
-.link3{
+.link3 {
     color: white;
 }
 
-.btn1,.btn2,.btn3,.btn4{
+.link1, .link2, .link3 {
     display: flex;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
     width: 100%;
     max-height: 150px;
+    padding: 10px;
     height: 100px;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large; 
-    margin-top: 20px; 
+    font-size: x-large;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn1{
+    flex-direction: column;
+    width: 100%;
+    max-height: 150px;
+    padding: 10px;
+    height: 100px;
+    font-size: x-large;
+    margin-top: 20px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
 }
 
-.btn1:hover,.btn2:hover, .btn3:hover, .btn4:hover{
+.btn1:hover, .link1:hover, .link2:hover, .link3:hover {
     opacity: 0.8;
 }
 
-.btn4{
+.link3 {
     background-color: red;
     color: white;
 }
 
+/* Responsividade */
 @media (max-width: 500px) {
     .modal {
         padding: 10px;
@@ -114,8 +119,7 @@ span {
     }
 
     span,
-    .btns{
+    .btns {
         font-size: smaller;
     }
 }
-

@@ -1,3 +1,4 @@
+
 import question from "../JSON/perguntas.js"; // Importa o conjunto de perguntas de um arquivo JSON
 
 // Seleciona os elementos HTML necessários para manipulação
