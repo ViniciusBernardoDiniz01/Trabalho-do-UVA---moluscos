@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 90px;
+    width:100%;
+    background-color: #0027A4;
+
+}
+
+.voltar{
+    font-size: 1.2rem;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+}
+
+.gambiarra{
+    display: flex;
+}
+
+.right, .left{
+    height: 100vh;
+    width: 20%;
+    background: linear-gradient(
+        135deg,
+        #011868 0%,
+        #011463 15%,
+        #00115f 30%,
+        #010d59 45%,
+        #002375 60%,
+        #00338c 75%,
+        #013e99 90%,
+        #0046a5 100%
+      );
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color:black;
+    height: 100vh;
+    width: 80%;
+}
+
+.counteudo{
+    display: flex;
+    color: red;
+    width: 980px;
+    height: 500px;
+    background-color: #d9d9d9;
+}
+
+footer{
+    background-color: aqua;
+}
+
