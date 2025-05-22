@@ -107,7 +107,7 @@ main {
 .track {
     width: 800px; /* Largura fixa da pista */
     height: 150px; /* Altura fixa da pista */
-    background-color: #f0f0f0;
+    background-image: url();
     border-radius: 15px;
     margin: 20px auto; /* Centraliza horizontalmente */
     position: relative;
